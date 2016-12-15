@@ -25,9 +25,9 @@ makedepends=(
 #################################################################################
 ## marked as optional dependencies on https://root.cern.ch/build-prerequisites ##
 #################################################################################
-#'gcc-fortran' # for /usr/bin/gfortran - but fortran=OFF
-#'openssl' # for /usr/include/openssl/pem.h and /usr/lib/libssl.so and /usr/lib/libcrypto.so
-#'fftw' # for /usr/include/fftw3.h and for /usr/lib/libfftw3.so -- builtin_fftw3=OFF but fftw3=ON
+'gcc-fortran' # for /usr/bin/gfortran - but fortran=OFF
+'openssl' # for /usr/include/openssl/pem.h and /usr/lib/libssl.so and /usr/lib/libcrypto.so
+'fftw' # for /usr/include/fftw3.h and for /usr/lib/libfftw3.so -- builtin_fftw3=OFF but fftw3=ON
 'ftgl' # unlisted optional dependency -- for builtin_ftgl=OFF
 'freetype2' # for builtin_freetype=OFF
 'glew' # for /usr/include/GL/glew.h and for /usr/lib/libGLEW.so -- for builtin_glew=OFF
@@ -42,15 +42,15 @@ makedepends=(
 #'llvm' # unlisted optional dependency -- for builtin_llvm=OFF <-- BROKEN!!
 #'llvm-libs' # unlisted optional dependency -- for builtin_llvm=OFF <-- BROKEN!!
 'intel-tbb' # unlisted optional dependency -- for builtin_tbb=OFF and tbb=ON
-#'libmariadbclient' # for /usr/bin/mysql_config (or ? 'libmysqlclient') but mysql=OFF
+'libmariadbclient' # for /usr/bin/mysql_config (or ? 'libmysqlclient') but mysql=OFF
 'mesa' # for /usr/include/GL/gl.h and for /usr/lib/libGL.so -- for opengl=ON (OpenGL support, requires libGL and libGLU)
 'mesa-libgl' # unlisted optional dependency -- for opengl=ON (OpenGL support, requires libGL and libGLU)
 'python2' # for /usr/include/python2.7/Python.h and for /usr/lib[64]/libpython2.7.so -- for python=ON
 'python2-numpy' # unlisted dependency?
 #'qt4' # for /usr/include/Qt/qglobal.h and for /usr/lib[64]/libQtCore.so -- but qt=OFF and qtgsi=OFF
-#'ssl' # for /usr/include/openssl/pem.h and /usr/lib/libssl.so and /usr/lib/libcrypto.so -- but ssl=OFF
-#'graphviz' # for /usr/include/graphviz/gvc.h and for /usr/lib/libgvc.so -- but gviz=OFF
-#'avahi' # for /usr/include/dns_sd.h and for /usr/lib/libdns_sd.so -- bonjour=OFF
+'ssl' # for /usr/include/openssl/pem.h and /usr/lib/libssl.so and /usr/lib/libcrypto.so -- but ssl=OFF
+'graphviz' # for /usr/include/graphviz/gvc.h and for /usr/lib/libgvc.so -- but gviz=OFF
+'avahi' # for /usr/include/dns_sd.h and for /usr/lib/libdns_sd.so -- bonjour=OFF
 #'libldap' # for /usr/include/ldap.h and for /usr/lib/libldap.so -- but ldap=OFF
 # unlisted dependencies?
 #'pkg-config' # for /usr/bin/pkg-config ('ftgl' ?)
